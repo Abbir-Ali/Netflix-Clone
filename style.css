@@ -68,7 +68,7 @@ nav button {
     font-weight: 900;
     font-size: 50px;
     text-align: center;
- 
+
 }
 
 .hero> :nth-child(2) {
@@ -208,11 +208,11 @@ nav button {
 
 .sec_img video {
     position: absolute;
-    top: 40px;
-    right: 10;
-    width: 500px;
+    top: 77px;
+    right: 0;
+    width: 434px;
     height: -60vh;
-   
+
 
 }
 
@@ -309,7 +309,7 @@ nav button {
 }
 
 .membership {
-    padding: 50px;
+    padding: 10px;
 }
 
 .membership>span {
@@ -348,7 +348,7 @@ footer .questions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
-    
+
 }
 
 .footer a {
@@ -375,7 +375,7 @@ footer .questions {
     }
 
     .hero> :nth-child(3) {
-        font-size:15px;
+        font-size: 15px;
     }
 
     .main {
@@ -410,89 +410,98 @@ footer .questions {
     }
 
     .main input {
-        padding: 6px 40px 8px 8px;
+        padding: 6px 6px 8px 8px;
         font-size: 1.1rem;
     }
 
     .first {
-       flex-wrap: wrap;
-        
+        flex-wrap: wrap;
+
     }
-    .first div{
+
+    .first div {
         gap: 10px;
     }
+
     .first>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .first>div :nth-child(2) {
         font-size: 1rem;
     }
-        
+
     .sec_img img {
         width: 360px;
     }
-    
+
     .sec_img video {
         right: 0;
         width: 300px;
     }
 
     .second {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-    .second div{
+
+    .second div {
         gap: 10px;
     }
+
     .second>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .second>div :nth-child(2) {
         font-size: 1rem;
         padding-bottom: 20px;
-    
+
     }
+
     .third {
-       flex-wrap: wrap;
-       padding: 20px 0;
+        flex-wrap: wrap;
+        padding: 20px 0;
     }
+
     .third div {
-       gap: 10px;
+        gap: 10px;
     }
-    
+
     .third>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .third>div :nth-child(2) {
         font-size: 1rem;
-    
+
     }
-    
+
     .fourth {
-        flex-wrap:wrap ;
+        flex-wrap: wrap;
         padding: 20px;
     }
+
     .fourth div {
         gap: 10px;
     }
-    
+
     .fourth>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .fourth>div :nth-child(2) {
         font-size: 1rem;
-    
+
     }
-    .faq h2{
+
+    .faq h2 {
         font-size: 35px
     }
+
     .membership>span {
         color: rgba(255, 255, 255, 0.7);
         display: flex;
@@ -500,7 +509,7 @@ footer .questions {
         align-items: center;
         padding: 14px;
     }
-    
+
     .membership>div :nth-child(1) {
         padding: 6px 25px 10px 10px;
         border-radius: 5px;
@@ -509,17 +518,17 @@ footer .questions {
         border-radius: 1px solid rgba(23, 23, 23, 0.5);
         color: white;
     }
-   
+
     footer {
         padding: 30px;
-        
+
     }
 
     .footer {
         grid-template-columns: 1fr 1fr;
-       align-items: center;
-       justify-content: center;
-       justify-items: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
     }
 
     .footer-item {
@@ -530,6 +539,7 @@ footer .questions {
 
 /* For medium devices */
 @media screen and (min-width: 550px) and (max-width: 1023px) {
+
     /* Adjust styles for medium-sized screens */
     .hero> :nth-child(1) {
         font-size: 30px;
@@ -540,15 +550,15 @@ footer .questions {
     }
 
     .hero> :nth-child(3) {
-        font-size:15px;
+        font-size: 15px;
     }
 
     .main {
-        height: 50vh;
+        height: 77vh;
     }
 
     .main .box {
-        height: 50vh;
+        height: 77vh;
     }
 
     nav {
@@ -580,84 +590,94 @@ footer .questions {
     }
 
     .first {
-       flex-wrap: wrap;
-        
+        flex-wrap: wrap;
+max-height: 93vh;
     }
-    .first div{
+
+    .first div {
         gap: 10px;
     }
+
     .first>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .first>div :nth-child(2) {
         font-size: 1rem;
     }
-        
+
     .sec_img img {
         width: 360px;
     }
-    
+
     .sec_img video {
         right: 0;
-        width: 300px;
+        top: 55px;
+        width: 313px;
     }
 
     .second {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-    .second div{
+
+    .second div {
         gap: 10px;
     }
+
     .second>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .second>div :nth-child(2) {
         font-size: 1rem;
         padding-bottom: 20px;
-    
+
     }
+
     .third {
-       flex-wrap: wrap;
-       padding: 20px 0;
+        flex-wrap: wrap;
+        padding: 20px 0;
     }
+
     .third div {
-       gap: 10px;
+        gap: 10px;
     }
-    
+
     .third>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .third>div :nth-child(2) {
         font-size: 1rem;
-    
+
     }
-    
+
     .fourth {
-        flex-wrap:wrap ;
+        flex-wrap: wrap;
         padding: 20px;
     }
+
     .fourth div {
         gap: 10px;
     }
-    
+
     .fourth>div :nth-child(1) {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .fourth>div :nth-child(2) {
         font-size: 1rem;
-    
+
     }
-    .faq h2{
+
+    .faq h2 {
         font-size: 35px
     }
+
     .membership>span {
         color: rgba(255, 255, 255, 0.7);
         display: flex;
@@ -665,7 +685,7 @@ footer .questions {
         align-items: center;
         padding: 14px;
     }
-    
+
     .membership>div :nth-child(1) {
         padding: 6px 25px 10px 10px;
         border-radius: 5px;
@@ -674,21 +694,20 @@ footer .questions {
         border-radius: 1px solid rgba(23, 23, 23, 0.5);
         color: white;
     }
-   
+
     footer {
-        padding: 30px;
-        
+        padding: 20px 20px;
+max-width: 94vw;
     }
 
     .footer {
-        grid-template-columns: 1fr 1fr;
-       align-items: center;
-       justify-content: center;
-       justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* align-items: center;
+        justify-content: center;
+        justify-items: center; */
     }
 
     .footer-item {
         margin-bottom: 20px;
     }
 }
-
